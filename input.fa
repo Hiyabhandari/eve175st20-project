@@ -1,0 +1,24 @@
+>seq1 simple test
+ATCGATCG
+>seq2 longer sequence
+ATGATGATGATGATGATGATGATGATGATGATG
+>seq3 palindromic complement
+AAACCCGGGTTT
+>seq4 multiline example
+ATGAAAAACCCCGGGGTTTTAAAACCCCGGGGAAAA
+>seq5 all adenine
+AAAAAAAAAA
+>seq6 all thymine
+TTTTTTTTTT
+>seq7 all guanine
+GGGGGGGGGG
+>seq8 all cytosine
+CCCCCCCCCC
+>seq9 alternating
+ATATATATATAT
+>seq10 gc rich
+GCGCGCGCGCGCGCGC
+>seq11 short
+AT
+>seq12 repeat unit
+ACACACACAC
