@@ -25,6 +25,10 @@ else
     INPUT="/dev/stdin"
 fi
 
+# Function: compute reverse complement of a DNA string
+# Step 1: rev reverses the string character by character
+# Step 2: tr swaps each base for its complement (A<->T, C<->G)
+
 reverse_complement() {
     local seq="$1"
     echo "$seq" \
@@ -41,6 +45,9 @@ process_record() {
         reverse_complement "$current_seq"
     fi
 }
+
+# Read through the input line by line
+# Accumulate sequence lines until we hit a new header or end of file
 
 while IFS= read -r line || [[ -n "$line" ]]; do
     line="${line//$'\r'/}"
