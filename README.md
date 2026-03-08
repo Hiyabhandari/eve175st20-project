@@ -73,3 +73,15 @@ Standard FASTA format:
   test.sh      Automated test suite
   input.fa     Sample input file
   README.md    This file
+
+## AI Assistance
+
+This project was developed with assistance from Claude (Anthropic AI).
+
+AI was used to help with:
+- Writing the test cases in test.sh
+- Formatting the README
+
+All code has been reviewed, tested, and understood by the author.
+The reverse complement logic, FASTA parsing approach, and error
+handling were explained and verified line by line.
