@@ -35,10 +35,10 @@ The script uses two Unix commands:
 
 ## Files
 
-  revcomp.sh   Main script
-  test.sh      Automated test suite
-  input.fa     Sample input file
-  README.md    This file
+-   revcomp.sh   Main script
+-   test.sh      Automated test suite
+-   input.fa     Sample input file
+-   README.md    This file
   
 ## Usage
 
